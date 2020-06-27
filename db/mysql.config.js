@@ -1,8 +1,8 @@
 //配置链接数据库参数
 module.exports = {
-    host : 'localhost',
+    host : '43.226.149.131',
     port : 3306,//端口号
-    database : 'mayidb',//数据库名
-    user : 'root',//数据库用户名
-    password : 'root'//数据库密码
+    database : 'mydb',//数据库名
+    user : 'mydb',//数据库用户名
+    password : 'lsl951219'//数据库密码
 };
