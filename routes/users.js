@@ -5,7 +5,7 @@ var db = require("../db/mysql.js");
 /* GET users listing. */
 router.get("/", function (req, res, next) {
   // 查询实例
-  db.query("select * from user", [], function (result, fields) {
+  db.query("select * from users", [], function (result, fields) {
     console.log("查询结果：", result);
     res.send(result);
   });
